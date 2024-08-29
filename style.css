@@ -1,0 +1,65 @@
+body {
+
+    background: black;
+    color: white;
+    margin: 0px;
+    font-family: "Chakra Petch", sans-serif;
+ 
+    margin-bottom: 100px;
+}
+
+header {
+    border-bottom: solid 2px rgb(42, 122, 228);
+    padding: 20px;
+    font-size: 32px;
+    color: rgb(42, 122, 228)
+}
+
+.chamada {
+
+background-color: rgb(184, 156, 213);
+padding: 80px;
+padding-bottom: 80px;
+padding-top: 80px;
+display: flex;
+justify-content: center;
+}
+
+h1{
+font-size: 40px;
+
+}
+
+p{
+
+    padding-right: 30px;
+}
+
+.videos {
+    display: flex;
+    overflow-x: auto;
+    gap:10px
+}
+
+.secaovideos {
+
+    padding-left: 20px;
+    padding-right:20px
+
+}
+
+.secaovideos img {
+    opacity: 0.5;
+    margin-top: 50px;
+    height:200px
+}
+
+.secaovideos img:hover {
+    opacity: 1.0;
+    border: 1px solid green;
+}
+
+h2{
+    color: rgb(42, 122, 228);
+
+}
